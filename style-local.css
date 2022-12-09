@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: rgba(33, 45, 207, 0.61);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.cabecalho-img{
+    height: 50px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 48px;
+    border-top: 0.4px solid white;
+}
+
+.conteudo-1-e{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-size: 20px;
+}
+
+.conteudo-1-e-t{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: red;
+}
+
+.conteudo-1-e-s{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+
+.conteudo-2{
+    display: flex;
+    gap: 10px;
+    height: 400px;
+    
+}
+
+.conteudo-2-mapbox{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    background: white;
+}
+
+.conteudo-2-mapbox iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.rodape{
+    padding: 3px;
+    border-top: 0.4px solid white;
+}
+
+.rodape-img{
+    height: 130px;
+    display: block;
+    margin: 0  auto;
+}
