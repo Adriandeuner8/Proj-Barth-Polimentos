@@ -34,9 +34,92 @@ body{
     font-size: 18px;
 }
 
-.conteudo{
+.main{
+    margin-bottom: 500px;
     padding: 10px;
-    margin-bottom: 48px;
     border-top: 0.4px solid white;
 }
 
+.container{
+    width: 900px;
+    margin: auto;
+    align-items: center;
+}
+
+.conteudo{
+    width: 30%;
+    background: black;
+    border-radius: 20px;
+    margin: 5px;
+    float: left;
+    margin-top: 8%;
+    text-align: center;
+}
+
+.preco{
+    width: 120px;
+    height: 120px;
+    margin: 5% auto 0 auto;
+    text-align: center;
+}
+
+.detalhes{
+    margin-top: -50px;
+}
+
+.conteudo h1{
+    font-size: 20px;
+    color: white;
+    line-height: 5;
+    text-transform: uppercase;
+}
+
+.preco h2{
+    font-size: 40px;
+    color: white;
+}
+
+
+.detalhes h4{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    line-height: 1;
+}
+
+.conteudo a{
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.conteudo a:hover{
+    text-decoration: none;
+    border-radius: 5px;
+    border:  2px solid black;
+    background: white;
+    color: black;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.rodape{
+    padding: 3px;
+    border-top: 0.4px solid white;
+}
+
+.rodape-img{
+    height: 130px;
+    display: block;
+    margin: 0  auto;
+}
